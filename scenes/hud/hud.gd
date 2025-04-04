@@ -6,7 +6,7 @@ var color_label_node: Label
 
 ##################################################
 func _ready() -> void:
-	color_label_node = $MarginContainer/ColorLabel
+	color_label_node = $ColorLabel
 	# MarginContainer 내의 ColorLabel 노드를 가져와 변수에 할당
 
 ##################################################
