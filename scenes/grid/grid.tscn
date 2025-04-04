@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm070h1ivr671"]
+
+[ext_resource type="Script" uid="uid://dtbagktw4u06j" path="res://scenes/grid/grid.gd" id="1_x0e5n"]
+
+[node name="Grid" type="Node2D"]
+script = ExtResource("1_x0e5n")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -10
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
